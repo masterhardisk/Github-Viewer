@@ -11,6 +11,7 @@ This project allows you to search for GitHub profiles and interact with a user's
 - 🔍 **User search**: Enter a GitHub username to view detailed profile information.
 - 📂 **Repository exploration**: Browse all public repositories of a user and explore their key details.
 - 🌟 **Minimalist design**: A modern and clean interface, following Apple’s design guidelines to provide an intuitive and user-friendly experience.
+- ✅ **Unit tests with Swift Testing**: The app includes unit tests to ensure functionality and maintain high code quality.
 
 ## Requirements
 

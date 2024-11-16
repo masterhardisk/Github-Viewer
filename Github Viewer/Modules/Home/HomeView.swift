@@ -45,7 +45,7 @@ struct HomeView: View {
                 
                 Button("Search") {
                     Task{
-                        await homeViewModel.fetchInfo()
+                        await homeViewModel.fetchInfoBy(homeViewModel.textField)
                     }
                 }
                 .fontWeight(.bold)

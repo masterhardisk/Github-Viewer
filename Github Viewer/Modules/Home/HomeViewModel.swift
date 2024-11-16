@@ -14,9 +14,9 @@ final class HomeViewModel: HandleError {
     var navigateToProfile = false
     var textField: String = ""
     
-    func fetchInfo() async {
+    func fetchInfoBy(_ username: String) async {
         do {
-            user = try await userInfoRepository.getInfoBy(username: textField)
+            user = try await userInfoRepository.getInfoBy(username: username)
             navigateToProfile.toggle()
             textField = ""
         }catch let error as ApiError {
