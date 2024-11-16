@@ -6,6 +6,7 @@
 //
 import SwiftUI
 
+@Observable
 class HandleError {
     var errorShow = false
     var errorMessage = ""
