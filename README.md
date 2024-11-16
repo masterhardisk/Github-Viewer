@@ -1,6 +1,6 @@
 # GitHub Viewer
 
-![GitHub Viewer Logo](https://i.ibb.co/1smWk7y/ios-icon-user-s-github-search-5.png) <!-- Puedes reemplazar este enlace con el logo del proyecto -->
+<img src="https://i.ibb.co/1smWk7y/ios-icon-user-s-github-search-5.png" width="200" height="200" alt="GitHub Viewer Logo" />
 
 ## Descripción
 
