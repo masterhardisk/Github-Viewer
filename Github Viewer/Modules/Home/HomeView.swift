@@ -48,6 +48,7 @@ struct HomeView: View {
                         await homeViewModel.fetchInfoBy(homeViewModel.textField)
                     }
                 }
+                .disabled(homeViewModel.textField.isEmpty)
                 .fontWeight(.bold)
                 .foregroundColor(.accentColor)
                 .font(.headline)
