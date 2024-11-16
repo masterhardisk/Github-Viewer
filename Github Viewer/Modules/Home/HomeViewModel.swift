@@ -18,6 +18,7 @@ final class HomeViewModel: HandleError {
         do {
             user = try await userInfoRepository.getInfoBy(username: textField)
             navigateToProfile.toggle()
+            textField = ""
         }catch let error as ApiError {
             showError(message: error.message)
         } catch {

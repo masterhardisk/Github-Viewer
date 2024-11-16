@@ -8,6 +8,6 @@ import Foundation
 
 class RepoRepository: Repository {
     func getRepos(for user: String) async throws -> [Repo] {
-        return try await gitApi.getReposBy(user)
+        return try await gitApi.getReposBy(user).sorted { $0.date > $1.date }
     }
 }
