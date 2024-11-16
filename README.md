@@ -15,7 +15,6 @@ This project allows you to search for GitHub profiles and interact with a user's
 ## Requirements
 
 - **iOS 18.0** or later.
-- **Xcode 14.0** or later.
 - **Swift 6**.
 
 ## Installation
